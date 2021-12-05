@@ -13,8 +13,14 @@ In this assignment we were given a somewhat messy codebase and were tasked with 
 - Applied comments to HTML and CSS regarding changes made
 - Applied comments to CSS to state affects of elements.
 - Fixed an anchor tag same page link.
+- Compressed images.
+- Made a Github repository with multiple commits and deployed the website through Github Pages
 
-### 📄 The User Story
+# [Link to the webpage](https://wratten.github.io/Bootcamp-Unit-1-Assignment-1/)
+
+![A screenshot of the website](screenshot.png)
+
+# 📄 The User Story
 
 ```
 AS A marketing agency
@@ -22,7 +28,7 @@ I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
 
-### 👍 Acceptance Criteria
+# 👍 Acceptance Criteria
 
 ```
 GIVEN a webpage meets accessibility standards
