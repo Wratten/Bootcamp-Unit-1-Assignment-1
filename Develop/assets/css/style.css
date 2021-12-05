@@ -4,10 +4,16 @@
   padding: 0;
   margin: 0;
 }
-
+/*affects the whole page*/
 body {
   background-color: #d9dcd6;
 }
+
+/*affects all non-header text*/
+p {
+  font-size: 16px;
+}
+
 /*changed to fit html semantic change */
 /*addresses both the logo in the top left of the page and the navbar on the top right*/
 header {
@@ -48,10 +54,6 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-/*affects all non-header text*/
-p {
-  font-size: 16px;
-}
 /*addresses the main image at the top of the webpage*/
 figure {
   height: 800px;
@@ -61,6 +63,36 @@ figure {
   background-size: cover;
   background-position: center;
 }
+
+/*affects the main content at the bottom middle of the page*/
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*consolidated all selectors into one*/
+/*addresses the main content in the lower center of the page*/
+.main-content {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/*consolidated all selectors into one*/
+/*addresses the main content images in the lower center of the page*/
+.main-content img {
+  max-height: 200px;
+}
+/*consolidated all selectors into one*/
+/*addresses the main content headers in the lower center of the page*/
+.main-content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
 /*affects the image placements in the main content*/
 .float-left {
   float: left;
@@ -70,12 +102,6 @@ figure {
 .float-right {
   float: right;
   margin-left: 25px;
-}
-/*affects the main content at the bottom middle of the page*/
-main {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
 
 /*changed to affect html change to semantic aside*/
@@ -110,28 +136,6 @@ aside {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-/*consolidated all selectors into one*/
-/*addresses the main content in the lower center of the page*/
-.main-content {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-/*consolidated all selectors into one*/
-/*addresses the main content images in the lower center of the page*/
-.main-content img {
-  max-height: 200px;
-}
-/*consolidated all selectors into one*/
-/*addresses the main content headers in the lower center of the page*/
-.main-content h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 /*changed to affect html change to semantic footer*/
