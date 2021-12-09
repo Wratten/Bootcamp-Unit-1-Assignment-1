@@ -16,7 +16,7 @@ In this assignment we were given a somewhat messy codebase and were tasked with 
 - Compressed images.
 - Made a Github repository with multiple commits and deployed the website through Github Pages
 
-# [Link to the webpage](https://wratten.github.io/Bootcamp-Unit-1-Assignment-1/)
+# [Link to the webpage](https://wratten.github.io/Bootcamp-Unit-1-Assignment-1-Code-Refactoring/)
 
 ![A screenshot of the website](screenshot.png)
 
